@@ -37,7 +37,7 @@ public class ElasticSearchController {
     @RequestMapping(value="/user/elasticsearch", method=RequestMethod.GET)
     public String insert(final Model model) throws IOException {
     	List<User> users = userService.getList();
-    	//contextMapping();
+    	//contextMapping() hihi;
     	
     	/*	for (User user : users) {
     		//IndexRequest indexRequest = new IndexRequest("users","user",  String.valueOf(user.getId()));
